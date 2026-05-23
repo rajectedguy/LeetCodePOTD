@@ -21,8 +21,6 @@ class Solution {
                     low = mid + 1;
                 }
             }
-
-            // right half is sorted
             else {
 
                 if(nums[mid] < target &&
